@@ -30,7 +30,7 @@ EOF
 echo "# Setting environ files"
 echo "export CONFIG=/home/${USER}/git/src/config/config.properties"| tee -a ~/.bash_env
 
-mkdir /home/{USER}/workspace/{config,workspace} -p
+mkdir /home/${USER}/workspace/{config,workspace} -p
 
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 
